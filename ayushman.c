@@ -15,13 +15,8 @@ int fun(int n)
 }
 int main()
 {
-    int r;
-    r = fun(5);
-    
-    
-    printf("%d\n", r);
-    return 0;
+    int a = 2048,sum = 0;
+    foo (a,sum);
+    printf("%d\n",sum);
 
-    printf("%d\n", r);
-    return 0;
 }
